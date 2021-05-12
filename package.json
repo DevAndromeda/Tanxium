@@ -1,0 +1,34 @@
+{
+  "name": "tanxium",
+  "version": "1.0.0",
+  "description": "Custom fetch api",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "tsc && cd test && ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/Tanxium.git"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "https",
+    "request"
+  ],
+  "author": "Snowflake107",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/Tanxium/issues"
+  },
+  "homepage": "https://github.com/DevSnowflake/Tanxium#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
